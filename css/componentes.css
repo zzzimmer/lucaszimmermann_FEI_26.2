@@ -10,9 +10,27 @@
 
 .cartao { background: var(--cor-card); padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, .15); }
 
+.detalhes-produto { display: flex; gap: 1.5rem; align-items: center; background: var(--cor-card); padding: var(--espaco); border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, .15); }
+.detalhes-produto figure { flex: 0 0 35%; max-width: 35%; }
+.detalhes-produto div { flex: 1; }
+
 figure { margin: 0; }
 figcaption { text-align: center; font-size: .9rem; color: #4a5a63; padding-top: .3rem; }
 
 .galeria-sobre { display: flex; gap: 1rem; margin-bottom: var(--espaco); }
 .galeria-sobre figure { flex: 1; min-width: 0; }
 .galeria-sobre img { border-radius: 8px; }
+
+.botao {
+  display: inline-block;
+  margin-top: var(--espaco);
+  padding: .6rem 1.2rem;
+  background: var(--cor-principal);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background .2s;
+}
+.botao:hover { background: #083a50; }
+.botao:active { background: #05293a; }
+button.botao { border: 0; font: inherit; cursor: pointer; }
