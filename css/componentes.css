@@ -1,0 +1,8 @@
+.cartao { background: var(--cor-card); padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, .15); }
+
+figure { margin: 0; }
+figcaption { text-align: center; font-size: .9rem; color: #4a5a63; padding-top: .3rem; }
+
+.galeria-sobre { display: flex; gap: 1rem; margin-bottom: var(--espaco); }
+.galeria-sobre figure { flex: 1; min-width: 0; }
+.galeria-sobre img { border-radius: 8px; }
