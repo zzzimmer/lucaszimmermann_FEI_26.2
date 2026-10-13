@@ -1,3 +1,16 @@
 @media (max-width: 767px) {
+  .botao-menu { display: block; }
+  nav ul { display: none; flex-direction: column; width: 100%; padding-bottom: .5rem; }
+  #menu-check:checked ~ ul { display: flex; }
   .galeria-sobre { flex-direction: column; }
+}
+
+@media (max-width: 320px) {
+  .marca-loja { font-size: 1.1rem; }
+  h1 { font-size: 1.4rem; }
+  main { padding: .5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
 }
