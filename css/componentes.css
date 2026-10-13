@@ -8,6 +8,20 @@
   border-radius: 8px;
 }
 
+.cartao-produto {
+  background: var(--cor-card);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+  padding: var(--espaco);
+  transition: transform .2s, box-shadow .2s;
+}
+.cartao-produto a { display: block; color: inherit; text-decoration: none; }
+.cartao-produto:hover { transform: translateY(-4px); box-shadow: 0 6px 14px rgba(0, 0, 0, .25); }
+.cartao-produto:active { transform: translateY(0); }
+.cartao-produto img { display: block; width: 100%; height: 220px; object-fit: contain; }
+.cartao-produto h3 { margin: .5rem 0 .2rem; }
+.cartao-produto p { margin: 0; font-weight: bold; color: var(--cor-principal); }
+
 .cartao { background: var(--cor-card); padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, .15); }
 
 .detalhes-produto { display: flex; gap: 1.5rem; align-items: center; background: var(--cor-card); padding: var(--espaco); border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, .15); }
