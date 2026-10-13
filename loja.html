@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja - Minha Loja</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+<header>
+  <nav aria-label="Menu principal">
+    <a class="marca-loja" href="index.html">Minha Loja</a>
+    <input type="checkbox" id="menu-check" aria-label="Abrir menu">
+    <label for="menu-check" class="botao-menu" aria-hidden="true">☰</label>
+    <ul>
+      <li><a href="loja.html" aria-current="page">Loja</a></li>
+      <li><a href="vestuario.html">Vestuário</a></li>
+      <li><a href="eletronicos.html">Eletrônicos</a></li>
+      <li><a href="acessorios.html">Acessórios</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+      <li><a href="perfil.html">Perfil</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Catálogo</h1>
+  <section class="cartao filtros">
+    <h2>Filtros</h2>
+    <form id="form-filtros-loja" action="#">
+      <fieldset>
+        <legend>Filtrar produtos</legend>
+        <div class="campos-filtro">
+          <div>
+            <label for="busca">Buscar produto</label>
+            <input type="search" id="busca" placeholder="Digite o nome do produto">
+          </div>
+          <div>
+            <label for="categoria">Categoria</label>
+            <select id="categoria">
+              <option>Todas</option>
+              <option>Vestuário</option>
+              <option>Eletrônicos</option>
+              <option>Acessórios</option>
+            </select>
+          </div>
+          <div>
+            <label for="preco">Faixa de preço</label>
+            <select id="preco">
+              <option>Qualquer preço</option>
+              <option>Até R$ 100,00</option>
+              <option>De R$ 100,00 a R$ 300,00</option>
+              <option>Acima de R$ 300,00</option>
+            </select>
+          </div>
+          <div>
+            <label for="ordem">Ordenar por</label>
+            <select id="ordem">
+              <option>Relevância</option>
+              <option>Menor preço</option>
+              <option>Maior preço</option>
+              <option>Nome (A-Z)</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <button id="botao-filtrar" type="button" class="botao">Filtrar</button>
+    </form>
+  </section>
+  <h2>Produtos</h2>
+  <div class="grade-produtos">
+    <article class="cartao-produto">
+      <a href="camiseta.html">
+        <img src="img/camiseta.jpg" alt="Foto de camiseta">
+        <h3>Camiseta</h3>
+        <p>R$ 50,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="calca.html">
+        <img src="img/calca.jpg" alt="Foto de calça">
+        <h3>Calça</h3>
+        <p>R$ 300,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="telefone.html">
+        <img src="img/telefone.jpg" alt="Foto de telefone">
+        <h3>Telefone</h3>
+        <p>R$ 850,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="jaqueta.html">
+        <img src="img/jaqueta.svg" alt="Foto de jaqueta">
+        <h3>Jaqueta</h3>
+        <p>R$ 220,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="fone.html">
+        <img src="img/fone.svg" alt="Foto de fone de ouvido">
+        <h3>Fone de Ouvido</h3>
+        <p>R$ 180,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="mouse.html">
+        <img src="img/mouse.svg" alt="Foto de mouse">
+        <h3>Mouse</h3>
+        <p>R$ 60,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="relogio.html">
+        <img src="img/relogio.svg" alt="Foto de relógio">
+        <h3>Relógio</h3>
+        <p>R$ 400,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="bone.html">
+        <img src="img/bone.svg" alt="Foto de boné">
+        <h3>Boné</h3>
+        <p>R$ 45,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="mochila.html">
+        <img src="img/mochila.svg" alt="Foto de mochila">
+        <h3>Mochila</h3>
+        <p>R$ 130,00</p>
+      </a>
+    </article>
+    <article class="cartao-produto">
+      <a href="teclado.html">
+        <img src="img/teclado.jpg" alt="Foto de teclado">
+        <h3>Teclado</h3>
+        <p>R$ 100,00</p>
+      </a>
+    </article>
+  </div>
+</main>
+<footer>
+  <p>© 2026 Minha Loja - Florianópolis, SC - contato@minhaloja.com</p>
+</footer>
+</body>
+</html>

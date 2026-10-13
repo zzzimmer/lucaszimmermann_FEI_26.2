@@ -64,4 +64,19 @@ form input, form textarea {
 }
 form input:focus-visible, form textarea:focus-visible { outline: 3px solid var(--cor-destaque); border-color: var(--cor-principal); }
 input[readonly] { background: #e6eaec; color: #4a5a63; cursor: not-allowed; }
+
+.filtros { margin-bottom: 1.5rem; }
+.filtros select {
+  display: block;
+  width: 100%;
+  margin-top: .3rem;
+  padding: .6rem;
+  font: inherit;
+  color: inherit;
+  background: var(--cor-card);
+  border: 1px solid #6b7c85;
+  border-radius: 4px;
+}
+.filtros select:focus-visible { outline: 3px solid var(--cor-destaque); }
+
 .bloco-tabela { margin-top: 1.5rem; }
