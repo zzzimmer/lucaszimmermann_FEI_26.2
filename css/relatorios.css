@@ -1,0 +1,6 @@
+table { width: 100%; border-collapse: collapse; }
+caption { text-align: left; padding-bottom: .5rem; color: #4a5a63; }
+th, td { padding: .6rem; text-align: left; border-bottom: 1px solid #c9d3d8; overflow-wrap: anywhere; }
+th { background: var(--cor-principal); color: #fff; }
+tbody tr { transition: background .2s; }
+tbody tr:hover { background: #eaf2f6; }

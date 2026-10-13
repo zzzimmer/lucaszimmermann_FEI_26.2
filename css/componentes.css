@@ -63,3 +63,5 @@ form input, form textarea {
   transition: border-color .2s;
 }
 form input:focus-visible, form textarea:focus-visible { outline: 3px solid var(--cor-destaque); border-color: var(--cor-principal); }
+input[readonly] { background: #e6eaec; color: #4a5a63; cursor: not-allowed; }
+.bloco-tabela { margin-top: 1.5rem; }

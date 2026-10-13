@@ -11,6 +11,7 @@
   .detalhes-produto { flex-direction: column; }
   .detalhes-produto figure { flex: none; max-width: 100%; }
   .galeria-sobre { flex-direction: column; }
+  th, td { padding: .4rem .3rem; font-size: .85rem; }
 }
 
 @media (max-width: 320px) {
