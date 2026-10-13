@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatórios - Minha Loja</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="css/relatorios.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+<header>
+  <nav aria-label="Menu principal">
+    <a class="marca-loja" href="index.html">Minha Loja</a>
+    <input type="checkbox" id="menu-check" aria-label="Abrir menu">
+    <label for="menu-check" class="botao-menu" aria-hidden="true">☰</label>
+    <ul>
+      <li><a href="loja.html">Loja</a></li>
+      <li><a href="vestuario.html">Vestuário</a></li>
+      <li><a href="eletronicos.html">Eletrônicos</a></li>
+      <li><a href="acessorios.html">Acessórios</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+      <li><a href="perfil.html">Perfil</a></li>
+      <li><a href="relatorios.html" aria-current="page">Relatórios</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Relatórios</h1>
+  <section class="cartao">
+    <h2>Relatório de clientes</h2>
+    <table id="tabela-clientes">
+      <caption>Clientes cadastrados (exemplo)</caption>
+      <thead>
+        <tr><th scope="col">ID</th><th scope="col">Nome</th><th scope="col">E-mail</th><th scope="col">CPF</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>C001</td><td>Maria da Silva</td><td>maria@exemplo.com</td><td>123.456.789-09</td></tr>
+        <tr><td>C002</td><td>João Pereira</td><td>joao@exemplo.com</td><td>234.567.890-12</td></tr>
+        <tr><td>C003</td><td>Ana Souza</td><td>ana@exemplo.com</td><td>345.678.901-23</td></tr>
+        <tr><td>C004</td><td>Carlos Lima</td><td>carlos@exemplo.com</td><td>456.789.012-34</td></tr>
+        <tr><td>C005</td><td>Beatriz Costa</td><td>beatriz@exemplo.com</td><td>567.890.123-45</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section class="cartao bloco-tabela">
+    <h2>Relatório e busca de compras</h2>
+    <form id="form-busca-compras" action="#" class="filtros">
+      <fieldset>
+        <legend>Buscar compras</legend>
+        <div class="campos-filtro">
+          <div>
+            <label for="busca-id">ID da compra</label>
+            <input type="text" id="busca-id" placeholder="P001">
+          </div>
+          <div>
+            <label for="busca-cliente">Cliente</label>
+            <input type="text" id="busca-cliente" placeholder="Nome do cliente">
+          </div>
+          <div>
+            <label for="busca-data">Data</label>
+            <input type="date" id="busca-data">
+          </div>
+          <div>
+            <label for="busca-valor">Valor total (R$)</label>
+            <input type="number" id="busca-valor" min="0" step="0.01" placeholder="0,00">
+          </div>
+          <div>
+            <label for="busca-produto">Produto</label>
+            <input type="text" id="busca-produto" placeholder="Nome do produto">
+          </div>
+        </div>
+      </fieldset>
+      <button id="botao-buscar" type="button" class="botao">Buscar</button>
+    </form>
+    <table id="tabela-compras">
+      <caption>Compras realizadas (exemplo)</caption>
+      <thead>
+        <tr><th scope="col">ID</th><th scope="col">Cliente</th><th scope="col">Produtos</th><th scope="col">Qtd.</th><th scope="col">Valor total</th><th scope="col">Data</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>P001</td><td>Maria da Silva</td><td>Camiseta</td><td>2</td><td>R$ 100,00</td><td>05/09/2026</td></tr>
+        <tr><td>P002</td><td>João Pereira</td><td>Teclado, Mouse</td><td>2</td><td>R$ 160,00</td><td>12/09/2026</td></tr>
+        <tr><td>P003</td><td>Ana Souza</td><td>Telefone</td><td>1</td><td>R$ 850,00</td><td>20/09/2026</td></tr>
+        <tr><td>P004</td><td>Carlos Lima</td><td>Jaqueta, Boné</td><td>2</td><td>R$ 265,00</td><td>02/10/2026</td></tr>
+        <tr><td>P005</td><td>Beatriz Costa</td><td>Mochila</td><td>1</td><td>R$ 130,00</td><td>05/10/2026</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer>
+  <p>© 2026 Minha Loja - Florianópolis, SC - contato@minhaloja.com</p>
+</footer>
+</body>
+</html>
