@@ -23,4 +23,4 @@ body {
 
 img { max-width: 100%; height: auto; }
 h1 { text-align: center; color: var(--cor-principal); }
-a:focus-visible, label:focus-visible, input:focus-visible + label { outline: 3px solid var(--cor-destaque); outline-offset: 2px; }
+a:focus-visible { outline: 3px solid var(--cor-destaque); outline-offset: 2px; }
