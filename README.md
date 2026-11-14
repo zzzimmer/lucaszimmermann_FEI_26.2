@@ -1,8 +1,8 @@
-# Minha Loja
+# Tralharia
 
 ## Descrição
 
-A Minha Loja é uma loja virtual fictícia que vende vestuário (camisetas, calças, jaquetas, bonés), eletrônicos (fone, mouse, teclado, telefone) e acessórios (mochila, relógio).
+A Tralharia é uma loja virtual fictícia que vende vestuário (camisetas, calças, jaquetas, bonés), eletrônicos (fone, mouse, teclado, telefone) e acessórios (mochila, relógio).
 
 O site é estático, feito só com HTML e CSS puro. Tem catálogo de produtos por categoria, páginas de produto, login, cadastro, contato, perfil do cliente com tabela de pedidos e relatórios de clientes e compras.
 
