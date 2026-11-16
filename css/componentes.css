@@ -95,3 +95,7 @@ input[readonly] { background: #e6eaec; color: #4a5a63; cursor: not-allowed; }
   cursor: pointer;
 }
 .botao-remover:hover { background: #8c1d17; }
+
+.mensagem-erro { margin: .3rem 0 0; color: #b3261e; font-size: .9rem; }
+input.campo-invalido { border-color: #b3261e; }
+dialog { padding: 1.5rem; border: 1px solid #c9d3d8; border-radius: 8px; }
