@@ -53,7 +53,6 @@ figcaption { text-align: center; font-size: .9rem; color: #4a5a63; padding-top: 
 .botao:active { background: #05293a; }
 button.botao { border: 0; font: inherit; cursor: pointer; }
 .botao-carrinho { margin-left: .5rem; }
-
 fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 legend { padding: 0; font-weight: bold; font-size: 1.1rem; color: var(--cor-principal); }
 form label { display: block; margin-top: .8rem; font-weight: bold; }
@@ -85,3 +84,14 @@ input[readonly] { background: #e6eaec; color: #4a5a63; cursor: not-allowed; }
 .filtros select:focus-visible { outline: 3px solid var(--cor-destaque); }
 
 .bloco-tabela { margin-top: 1.5rem; }
+
+.botao-remover {
+  padding: .3rem .8rem;
+  background: #b3261e;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+.botao-remover:hover { background: #8c1d17; }
